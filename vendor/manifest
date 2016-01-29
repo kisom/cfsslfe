@@ -1,0 +1,399 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/GeertJohan/go.rice",
+			"repository": "https://github.com/GeertJohan/go.rice",
+			"revision": "0f3f5fde32fd1f755632a3d31ba2ec6d449e387b",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/cloudflare/cf-tls/tls",
+			"repository": "https://github.com/cloudflare/cf-tls",
+			"revision": "358b61f346ff4384bd2b051a8d1a24c48444e388",
+			"branch": "master",
+			"path": "/tls"
+		},
+		{
+			"importpath": "github.com/cloudflare/cfssl/crypto/pkcs7",
+			"repository": "https://github.com/cloudflare/cfssl",
+			"revision": "18619e53b7515005c612c5b3d5ae02b4882e5acd",
+			"branch": "master",
+			"path": "/crypto/pkcs7"
+		},
+		{
+			"importpath": "github.com/cloudflare/cfssl/csr",
+			"repository": "https://github.com/cloudflare/cfssl",
+			"revision": "18619e53b7515005c612c5b3d5ae02b4882e5acd",
+			"branch": "master",
+			"path": "/csr"
+		},
+		{
+			"importpath": "github.com/cloudflare/cfssl/errors",
+			"repository": "https://github.com/cloudflare/cfssl",
+			"revision": "18619e53b7515005c612c5b3d5ae02b4882e5acd",
+			"branch": "master",
+			"path": "/errors"
+		},
+		{
+			"importpath": "github.com/cloudflare/cfssl/helpers",
+			"repository": "https://github.com/cloudflare/cfssl",
+			"revision": "18619e53b7515005c612c5b3d5ae02b4882e5acd",
+			"branch": "master",
+			"path": "/helpers"
+		},
+		{
+			"importpath": "github.com/cloudflare/cfssl/log",
+			"repository": "https://github.com/cloudflare/cfssl",
+			"revision": "18619e53b7515005c612c5b3d5ae02b4882e5acd",
+			"branch": "master",
+			"path": "/log"
+		},
+		{
+			"importpath": "github.com/cloudflare/cfssl/transport/core",
+			"repository": "https://github.com/cloudflare/cfssl",
+			"revision": "18619e53b7515005c612c5b3d5ae02b4882e5acd",
+			"branch": "master",
+			"path": "/transport/core"
+		},
+		{
+			"importpath": "github.com/cloudflare/go-metrics",
+			"repository": "https://github.com/cloudflare/go-metrics",
+			"revision": "6a9aea36fb410b71add0d0e58438e0cfc44d3076",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/cloudflare/redoctober/client",
+			"repository": "https://github.com/cloudflare/redoctober",
+			"revision": "434f0b61d72eb260f7fcc90115d2fbde77de0c6a",
+			"branch": "master",
+			"path": "/client"
+		},
+		{
+			"importpath": "github.com/cloudflare/redoctober/core",
+			"repository": "https://github.com/cloudflare/redoctober",
+			"revision": "434f0b61d72eb260f7fcc90115d2fbde77de0c6a",
+			"branch": "master",
+			"path": "/core"
+		},
+		{
+			"importpath": "github.com/cloudflare/redoctober/cryptor",
+			"repository": "https://github.com/cloudflare/redoctober",
+			"revision": "434f0b61d72eb260f7fcc90115d2fbde77de0c6a",
+			"branch": "master",
+			"path": "/cryptor"
+		},
+		{
+			"importpath": "github.com/cloudflare/redoctober/ecdh",
+			"repository": "https://github.com/cloudflare/redoctober",
+			"revision": "434f0b61d72eb260f7fcc90115d2fbde77de0c6a",
+			"branch": "master",
+			"path": "/ecdh"
+		},
+		{
+			"importpath": "github.com/cloudflare/redoctober/keycache",
+			"repository": "https://github.com/cloudflare/redoctober",
+			"revision": "434f0b61d72eb260f7fcc90115d2fbde77de0c6a",
+			"branch": "master",
+			"path": "/keycache"
+		},
+		{
+			"importpath": "github.com/cloudflare/redoctober/msp",
+			"repository": "https://github.com/cloudflare/redoctober",
+			"revision": "434f0b61d72eb260f7fcc90115d2fbde77de0c6a",
+			"branch": "master",
+			"path": "/msp"
+		},
+		{
+			"importpath": "github.com/cloudflare/redoctober/padding",
+			"repository": "https://github.com/cloudflare/redoctober",
+			"revision": "434f0b61d72eb260f7fcc90115d2fbde77de0c6a",
+			"branch": "master",
+			"path": "/padding"
+		},
+		{
+			"importpath": "github.com/cloudflare/redoctober/passvault",
+			"repository": "https://github.com/cloudflare/redoctober",
+			"revision": "434f0b61d72eb260f7fcc90115d2fbde77de0c6a",
+			"branch": "master",
+			"path": "/passvault"
+		},
+		{
+			"importpath": "github.com/cloudflare/redoctober/symcrypt",
+			"repository": "https://github.com/cloudflare/redoctober",
+			"revision": "434f0b61d72eb260f7fcc90115d2fbde77de0c6a",
+			"branch": "master",
+			"path": "/symcrypt"
+		},
+		{
+			"importpath": "github.com/daaku/go.zipexe",
+			"repository": "https://github.com/daaku/go.zipexe",
+			"revision": "a5fe2436ffcb3236e175e5149162b41cd28bd27d",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/google/certificate-transparency/go",
+			"repository": "https://github.com/google/certificate-transparency",
+			"revision": "b8c7202724e8958b90e37eed7519693ebce81d9a",
+			"branch": "master",
+			"path": "/go"
+		},
+		{
+			"importpath": "github.com/jmhodges/clock",
+			"repository": "https://github.com/jmhodges/clock",
+			"revision": "3c4ebd218625c9364c33db6d39c276d80c3090c6",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/kardianos/osext",
+			"repository": "https://github.com/kardianos/osext",
+			"revision": "29ae4ffbc9a6fe9fb2bc5029050ce6996ea1d3bc",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/kisielk/sqlstruct",
+			"repository": "https://github.com/kisielk/sqlstruct",
+			"revision": "648daed35d49dac24a4bff253b190a80da3ab6a5",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/api",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/api"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/api/bundle",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/api/bundle"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/auth",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/auth"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/bundler",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/bundler"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/certdb",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/certdb"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/certinfo",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/certinfo"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/cli",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/cli"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/config",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/config"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/crl",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/crl"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/crypto/pkcs11key",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/crypto/pkcs11key"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/crypto/pkcs7",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/crypto/pkcs7"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/csr",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/csr"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/errors",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/errors"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/helpers",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/helpers"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/info",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/info"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/initca",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/initca"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/log",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/log"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/multiroot/config",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/multiroot/config"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/ocsp",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/ocsp"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/revoke",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/revoke"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/scan",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/scan"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/selfsign",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/selfsign"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/signer",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/signer"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/ubiquity",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/ubiquity"
+		},
+		{
+			"importpath": "github.com/kisom/cfssl/whitelist",
+			"repository": "https://github.com/kisom/cfssl",
+			"revision": "f8f94d1a1719c01f593adc3aa320e13d10d07fe4",
+			"branch": "master",
+			"path": "/whitelist"
+		},
+		{
+			"importpath": "github.com/lib/pq",
+			"repository": "https://github.com/lib/pq",
+			"revision": "8ad2b298cadd691a77015666a5372eae5dbfac8f",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/mattn/go-sqlite3",
+			"repository": "https://github.com/mattn/go-sqlite3",
+			"revision": "0cc1174c16b41f18bd77050fb5ffc84d88a739cc",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/miekg/pkcs11",
+			"repository": "https://github.com/miekg/pkcs11",
+			"revision": "4b4363b37cd397baa396bcde75f4b09f40441bd8",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/mreiferson/go-httpclient",
+			"repository": "https://github.com/mreiferson/go-httpclient",
+			"revision": "63fe23f7434723dc904c901043af07931f293c47",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/rcrowley/go-metrics",
+			"repository": "https://github.com/rcrowley/go-metrics",
+			"revision": "51425a2415d21afadfd55cd93432c0bc69e9598d",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/stathat/go",
+			"repository": "https://github.com/stathat/go",
+			"revision": "cf69b0bcb80478755dc0ea1120b36000e35dcbbb",
+			"branch": "master"
+		},
+		{
+			"importpath": "golang.org/x/crypto/ocsp",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "1f22c0103821b9390939b6776727195525381532",
+			"branch": "master",
+			"path": "/ocsp"
+		},
+		{
+			"importpath": "golang.org/x/crypto/pbkdf2",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "1f22c0103821b9390939b6776727195525381532",
+			"branch": "master",
+			"path": "/pbkdf2"
+		},
+		{
+			"importpath": "golang.org/x/crypto/pkcs12",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "1f22c0103821b9390939b6776727195525381532",
+			"branch": "master",
+			"path": "/pkcs12"
+		},
+		{
+			"importpath": "golang.org/x/crypto/scrypt",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "1f22c0103821b9390939b6776727195525381532",
+			"branch": "master",
+			"path": "/scrypt"
+		}
+	]
+}
